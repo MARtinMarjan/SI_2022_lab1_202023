@@ -2,4 +2,4 @@ banana x2
 apple x11
 apricot x4
 beef x6
-steak x9
+steak x3
