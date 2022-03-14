@@ -1,5 +1,6 @@
 banana x2
 apple x5
 apricot x4
-beef x6
+cherry x6
 steak x9
+carrot x7
