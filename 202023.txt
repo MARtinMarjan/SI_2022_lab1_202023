@@ -1,0 +1,134 @@
+4.
+git clone https://github.com/MARtinMarjan/SI_2022_lab1_202023.git
+5.
+git add .
+git commit -m "Add 5 items to the shopping list" .
+6.
+git add .
+git commit -m "Add quantities to the items"
+7.
+git branch branch1
+git branch branch2
+8.
+git log
+commit b6ba096db4fac72137f6044a8c06748d31373a71 (HEAD -> master, branch2, branch1)
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Mon Mar 14 23:35:41 2022 +0100
+
+    Add quantities to the items
+
+commit 0d211ebbd43c1edb133fe2ecf0adfb73f70c1362
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Sat Mar 12 15:08:48 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit e8a089a1a08f7d1dfe99f212aea401460dacd820 (origin/master, origin/HEAD)
+Author: Martin <100298572+MARtinMarjan@users.noreply.github.com>
+Date:   Sat Mar 12 14:58:04 2022 +0100
+
+    Update README.md
+
+commit b1a210e469414e64ad7b40a6adc3c647fefe77ff
+Author: Martin <100298572+MARtinMarjan@users.noreply.github.com>
+Date:   Sat Mar 12 14:57:17 2022 +0100
+
+9.
+git push --all origin
+10.
+git checkout branch1
+11.
+git add .
+git commit -m "Change quantity of item #5"
+12.
+git checkout master
+13.
+git add.
+git commit -m "Change quantity of item #2"
+14.
+git push --all origin
+15.
+git checkout branch2
+16.
+git add .
+git commit -m "Modify item #4"
+17.
+git log
+commit f4052f0547954e58c9c4383b709bd3b1146ac4c8 (HEAD -> branch2)
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Mon Mar 14 23:46:00 2022 +0100
+
+    Modify item #4
+
+commit b6ba096db4fac72137f6044a8c06748d31373a71 (origin/branch2)
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Mon Mar 14 23:35:41 2022 +0100
+
+    Add quantities to the items
+
+commit 0d211ebbd43c1edb133fe2ecf0adfb73f70c1362
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Sat Mar 12 15:08:48 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit e8a089a1a08f7d1dfe99f212aea401460dacd820
+Author: Martin <100298572+MARtinMarjan@users.noreply.github.com>
+Date:   Sat Mar 12 14:58:04 2022 +0100
+
+    Update README.md
+
+18.
+git add .
+git commit --amend
+
+19.
+git log
+commit e54baaa35705e9f738749950fcc9231393a04e83 (HEAD -> branch2)
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Mon Mar 14 23:46:00 2022 +0100
+
+    Modify item #4 and add item #6
+
+commit b6ba096db4fac72137f6044a8c06748d31373a71 (origin/branch2)
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Mon Mar 14 23:35:41 2022 +0100
+
+    Add quantities to the items
+
+commit 0d211ebbd43c1edb133fe2ecf0adfb73f70c1362
+Author: Martin Marjanovikj <craftmine200@yahoo.com>
+Date:   Sat Mar 12 15:08:48 2022 +0100
+
+    Add 5 items to the shopping list
+
+commit e8a089a1a08f7d1dfe99f212aea401460dacd820
+Author: Martin <100298572+MARtinMarjan@users.noreply.github.com>
+Date:   Sat Mar 12 14:58:04 2022 +0100
+
+    Update README.md
+
+commit b1a210e469414e64ad7b40a6adc3c647fefe77ff
+Author: Martin <100298572+MARtinMarjan@users.noreply.github.com>
+Date:   Sat Mar 12 14:57:17 2022 +0100
+
+    Initial commit
+
+20.
+git checkout master
+git merge branch1
+21.
+git merge branch2
+се јави конфликт, го решив така што во нотепад ги избрав саканите промени
+и ги примив incoming промените.
+потоа само ги внесов следните команди
+git add .
+git commit -m "Merge branch 'branch2'"
+22.
+git add .
+git commit -m "Add docs"
+23.
+git push --all origin
+
+
+
