@@ -1,5 +1,5 @@
-banana
-apple
-apricot
-beef
-steak
+banana x2
+apple x5
+apricot x4
+beef x6
+steak x9
